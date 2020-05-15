@@ -1,0 +1,63 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background: black;
+}
+
+.conteiner{
+    max-width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.password{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    min-height: 150px;
+}
+
+.play-ground{
+    display: flex;
+}
+
+.play-ground__items{
+    text-align: center;
+    color: white;
+    width: 900px;
+    height: auto;  
+}
+
+.play-ground__items--alphabet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.letter{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 11px;
+    cursor: pointer;
+}
+
+.letter:hover{
+    color: black;
+    background: white;
+}
